@@ -1,0 +1,230 @@
+/* Selettori Generali */
+
+/* Google Font */
+.fontRaj{
+    font-family: 'Rajdhani', sans-serif;
+}
+.fontNova{
+    font-family: 'Nova Square', cursive;
+}
+
+/* Color Rosso chiaro  */
+.colorlittlefont{
+    color:#C67F7F ;
+}
+
+/* Color Grigio */
+.colorbackg{
+    color:#ececec;
+}
+
+/* Color Dark Red */
+.darkred{
+    color: #8B0000;
+}
+
+/* Padding top */
+.padding-top{
+    padding-top: 10%;
+}
+
+.padding-top5{
+    padding-top: 5%;
+}
+
+.padding-bottom{
+    padding-bottom: 45vh ;
+}
+
+/* Fine Selettori Generali */
+
+
+/* Selettori NavBar */
+
+.navbar-nav{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+/* Fine Selettori NavBar */
+
+/* Selettori Header */
+.masthead{
+    background: linear-gradient(rgb(255, 255, 255), rgba(255, 191, 191, 0)), url(./immagini/switzerland-862870_1920.jpg);
+    background-position: center;
+    height: 70vh;
+}
+
+.psmt{
+    position: relative;
+    right: 4%;
+}
+
+/* Fine Selettori Header */
+
+
+/* Sezione1 */
+.sezione2{
+    background-color: #ececec;
+}
+
+.span{
+    font-size: 90px;
+    font-weight: 600;
+    color: darkred;
+}
+
+
+
+/* Sezione3 */
+.sezione3{
+    background-color:#ececec;
+    
+}
+
+
+/* Sezione4 */
+.sezione4{
+    background-color:#ececec;
+    background-position: center;
+}
+
+.timeline{
+    width: 149px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    left: 28%;
+    top: 50%;
+}
+
+.rotondo{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid 2px darkred;
+    position: relative;
+    left: 47%;
+    bottom: 1.5vh;
+}
+
+/* Bottone */
+.btn {
+    margin-top: 100px;
+    background-color: darkred;
+    border-radius: 0;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+}
+
+.sezionealb{
+    background-color:#ececec;
+    background-image: url(./immagini/trees2.png);
+    background-position: center;
+    height: 50vh;
+}
+
+
+
+/* Seconda timeline */
+.timeline4 {
+    height: 84vh;
+    border-left: 4px solid darkred;
+    padding-left: 3%;
+    position: relative;
+    left: 8px;
+    
+    
+}
+
+.circle1::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+    position: absolute;
+    left: calc(0px - 11px);
+    
+}
+
+
+
+/* Sezione 5 */
+.sezione5{
+    background-color:#ececec;
+    
+}
+
+.circle{
+    content: url(./immagini/logo.png);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: solid 5px darkred;
+}
+
+
+
+/* Section6 */
+
+.section6{
+    background-color:#ececec;
+    height: 110vh;
+}
+
+.circle6{
+    content: url(./immagini/fog.jpg);
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: solid 5px darkred;
+}
+
+.circle7{
+    content: url(./immagini/switzerland-862870_1920.jpg);
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    border: solid 5px darkred;
+}
+
+.center6{
+    display: flex;
+    align-content: center;
+}
+
+.section7{
+    background-color: #ececec;
+}
+
+/* Footer */
+
+.red-trees {
+    width: 100%;
+    filter: invert(9%) sepia(94%) saturate(3000%) hue-rotate(358deg) brightness(50%) contrast(112%);
+}
+
+.footer {
+    background-color: #800000;
+}
+
+.ft-color {
+    color: white;
+}
+
+.ft-title {
+    margin-top: 50px;
+}
+
+.p-footer {
+    font-weight: 100;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
